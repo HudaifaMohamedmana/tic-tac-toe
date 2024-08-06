@@ -1,0 +1,47 @@
+body{
+    /* background-image: url('https://w0.peakpx.com/wallpaper/991/160/HD-wallpaper-red-blue-geometric-shapes-black-background-abstract.jpg');
+    background-size: cover;  */
+    background-color: black;
+
+}
+.scr{
+    border:solid rgba(127, 255, 212, 0.139);
+    color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    align-items: center;
+}
+.borde{
+    
+    margin: 6em;
+}
+.colom{
+    border:solid ;
+    color: aquamarine;
+    height: 5em;
+    display: flex;
+    margin-right: 15em;
+    margin-left: 15em;
+    
+}
+.row1,.row2,.row3{
+    border-left:solid ;
+    border-right:solid ;
+    color: aquamarine;
+    width: 33%;
+}
+button{
+    background-color: aqua;
+    border: solid;
+     border-radius: 20%;
+    /*height: 2em; */
+
+}
+button:hover{
+        background-color: rgb(255, 0, 0);
+    border: solid;
+    border-radius: 30%;
+    height: 2em;
+    color: aliceblue;
+}
